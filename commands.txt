@@ -1,0 +1,1 @@
+docker run -d --restart=always -p 8080:80 image_name:version

@@ -1,0 +1,17 @@
+.dashboard-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image {
+    height: 250px;
+    object-fit: contain;
+  }
+  
+  .more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  
