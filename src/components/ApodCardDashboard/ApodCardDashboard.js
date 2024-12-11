@@ -40,13 +40,11 @@ export default function ApodCardDashboard() {
 
   return (
     <div>
-      <button onClick={getApodsMore}>Add More!</button>
       <div className="center-button">
         <Button variant="outlined" onClick={() => {
           getApodsMore();
         }}>Get 10 More</Button>
       </div>
-      <div><pre>{JSON.stringify(loading, null, 2) }</pre></div>
       <CardDashboard cards={apodCards} loading={loading} />
     </div>
   );
