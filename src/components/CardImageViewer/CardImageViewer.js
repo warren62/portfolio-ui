@@ -21,6 +21,7 @@ export default function CardImageViewer({ cardModel }) {
     <Card className="dashboard-card">
       <CardHeader
         title={cardModel.title}
+        titleTypographyProps={{variant:'h8' }}
         action={
           <>
             <IconButton onClick={handleMenuOpen}>
